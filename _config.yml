@@ -1,6 +1,6 @@
 # Site settings
 title: CLRS读书笔记
-email: web_support@qq.com
+email: m.xinerd@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   CLRS读书笔记
 baseurl: "/introduction-to-algorithms" # the subpath of your site, e.g. /blog
