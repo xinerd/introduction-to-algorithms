@@ -10,4 +10,4 @@ tags: []
 Source Code: [Insertion Sort (Java)]
 
 
-[Insertion Sort (Java)]: https://github.com/xinerd/introduction-to-algorithms/2016/01/14/insertion-sort.html
+[Insertion Sort (Java)]: https://github.com/xinerd/introduction-to-algorithms/blob/master/Chapter2/src/cn/fmachine/algorithm/clrs/ch2/Sorting.java
