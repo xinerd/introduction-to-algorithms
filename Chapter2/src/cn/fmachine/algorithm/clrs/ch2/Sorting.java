@@ -10,6 +10,11 @@ package cn.fmachine.algorithm.clrs.ch2;
 public class Sorting {
 
 
+    /**
+     * 2.1 Insertion Sort
+     * increasing order
+     * @param candidate Unsorted Array
+     */
     public static void insertionSort(double[] candidate) {
         for (int j = 1; j < candidate.length; j++) {
             double key = candidate[j];
@@ -21,4 +26,6 @@ public class Sorting {
             candidate[i + 1] = key;
         }
     }
+
+
 }
