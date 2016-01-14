@@ -1,12 +1,8 @@
 package cn.fmachine.algorithm.clrs.ch2;
 
-import junit.framework.Assert;
 import org.junit.Test;
 
-import java.lang.reflect.Array;
-import java.util.Arrays;
-
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 /**
  * SortingTest
