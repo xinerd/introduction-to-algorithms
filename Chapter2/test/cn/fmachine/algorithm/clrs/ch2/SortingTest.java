@@ -35,9 +35,7 @@ public class SortingTest {
         double[] sorted = new double[]{9, 8, 7, 6, 5, 4, 3, 2, 1};
 
         Sorting.insertionSort(candidate, false);
-        for (double v : sorted) {
-            System.out.print(v + "\t");
-        }
+
         for (int index = 0; index < sorted.length; index++) {
             assertEquals(sorted[index], candidate[index], 0);
         }
