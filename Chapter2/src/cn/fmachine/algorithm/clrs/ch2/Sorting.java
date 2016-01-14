@@ -12,16 +12,25 @@ public class Sorting {
 
     /**
      * 2.1 Insertion Sort
-     * increasing order
-     * @param candidate Unsorted Array
+     * Exercises 2.1-2
+     *
+     * @param candidate    Unsorted Array
+     * @param isIncreasing is true on default, if value is false then do decreasing order
      */
-    public static void insertionSort(double[] candidate) {
+    public static void insertionSort(double[] candidate, boolean isIncreasing) {
         for (int j = 1; j < candidate.length; j++) {
             double key = candidate[j];
             int i = j - 1;
-            while (i >= 0 && candidate[i] > key) {
-                candidate[i + 1] = candidate[i];
-                i--;
+            if (isIncreasing) {
+                while (i >= 0 && candidate[i] > key) {
+                    candidate[i + 1] = candidate[i];
+                    i--;
+                }
+            } else {
+                while (i >= 0 && candidate[i] < key) {
+                    candidate[i + 1] = candidate[i];
+                    i--;
+                }
             }
             candidate[i + 1] = key;
         }
